@@ -12,11 +12,13 @@
     <h1 id="title">Title</h1>
     <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
     <form id="survey-form">
-        <label 
-        <input type="text" id="name" required>
-        <input type="email" id="email" required
+        <label id="name-label">Name</label>
+        <input type="text" id="name" required placeholder="Insert your name">
+        <label id="email-label">Email</label>
+        <input type="email" id="email" required placeholder="Your email here"
             pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
-        <input type="number" id="number" min="0" max="1000"pattern="\d*">
+        <label id="number-label">Number</label>
+        <input type="number" id="number" min="0" max="1000" pattern="\d*" placeholder="number">
     </form>
     "Hello World ,we are software developers!"
 </body>
